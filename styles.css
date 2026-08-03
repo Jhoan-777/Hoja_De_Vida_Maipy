@@ -14,7 +14,7 @@ body{
     max-width: width 800px; 
     margin: 50px auto; /*margen superior e inferior*/
     background: white; /*fondo para el contenedor*/
-    padding: 20px; /*separar el contenido del contenedor*/
+    padding: 20px 50px; /*separar el contenido del contenedor*/
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*sombra alrededor del contenedor*/
 }
 /* Encabezados*/
