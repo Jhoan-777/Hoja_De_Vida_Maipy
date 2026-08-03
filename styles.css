@@ -1,0 +1,107 @@
+/*Estilos generales */
+body{
+      font-family: Arial, sans-serif; /*fuente*/
+      line-height: 1.6; /*altura de linea*/
+      background-color: #f5f2eb;
+      color: rgb(0, 0, 0);
+      margin: 1000000;
+      padding: 30px, 50px;
+
+}
+
+.container{
+    width: 80%; /*ancho del contenedor*/
+    max-width: width 800px; 
+    margin: 50px auto; /*margen superior e inferior*/
+    background: white; /*fondo para el contenedor*/
+    padding: 20px; /*separar el contenido del contenedor*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*sombra alrededor del contenedor*/
+}
+/* Encabezados*/
+header{
+    text-align: center; /*centrar todo el texto*/
+    margin-bottom: 20px; /*margen inferior*/
+}
+.profile-pic{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%; 
+      object-fit: cover;
+      border: 3px solid #c5a059; /*borde alrededor de la imagen*/
+
+}
+
+h1{
+    color:#c5a059;
+    margin: 10px 0; 
+}
+
+/*secciones*/
+.section{
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #446879; 
+}
+
+h2{
+    color: #c5a059;
+    font-size: 1.3 em; 
+}
+
+/* Listas */
+ul{
+     padding-left: 20px;
+}
+
+.skills {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.skills li{
+    background-color: #e8a7b0;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+/*Estilos para el botón de imprimir*/
+.print-button-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.print-button{
+    background-color: rgb(221, 114, 198);
+    color: rgb(255, 253, 253);
+    border: none;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+    width: 180px;
+    height: 50px;
+    
+
+}
+
+.print-button:hover{
+    background: linear-gradient(to right, #e8a7b0, #c761ad);
+    border-radius: 20px;
+    width: 180px;
+    height: 50px;
+}
+
+/*Estilos para la impresión*/
+@media print{
+    .print-button-container{
+        display: none; /*ocultar el boton de imprimir*/
+    }
+}
